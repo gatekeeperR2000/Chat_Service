@@ -1,38 +1,33 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+For this project I wanted to see more about how devices can communicate. I feel that in my classes for University I had learned a bit about basic coding skills but never touched on networking. So I took a couple weeks to glean and try my hand at creating a basic program.
 
-{Provide a description the networking program that you wrote. Describe how to use your software.  If you did Client/Server, then you will need to describe how to start both.}
+For my project it requires at least two python files running to work fully. The first can be started will be the server. Simply running chat_server.py in the terminal suffices and will set up the server on the localhost IP. Then in another terminal you will need to run the client side, chat_client.py. This will then start up your own connection to the server and allow for communiaction between the client and server.
 
-{Describe your purpose for writing this software.}
+Below is a 5 minute video going over some basics of what I used and found works along with a demenstration of basic functionality.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (you will need to show two pieces of software running and communicating with each other) and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/wAc0e1TGQF0)
 
 # Network Communication
 
-{Describe the architecture that you used (client/server or peer-to-peer)}
+I chose to do a Client Server aprouch for this netwrok. This allowed for me to see how the socket library and object could be used in python for different things.
 
-{Identify if you are using TCP or UDP and what port numbers are used.}
-
-{Identify the format of messages being sent between the client and server or the messages sent between two peers.}
+I used TCP along with encryption to allow for error checking and safety with passing the messages back and forth.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+I chose to continue using VS Code for this project. It wasn't overly complicated in terms of coding requirements. Simply took the time for me to understand that basics of what a network is, and how I even start coding one. VS Code worked well and python had plenty of tutorials and descriptions about what a socket is and how you can start with the basics of using them.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+I mainly focused of Geeks for Geeks and some youtube descriptions with tutorials to help me stumble through networking.
+* [Geeks for Geeks](https://www.geeksforgeeks.org)
+* [Tutorialspoint](https://www.tutorialspoint.com/python/python_network_programming.htm)
+* [Stak Overflow](https://stackoverflow.com)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+Additions I wish to make in the future
+* GUI
+* Ability to open and close the server on command
+* Potentially have a Data Base to store and query from
